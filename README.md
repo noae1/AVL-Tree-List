@@ -1,4 +1,4 @@
-## AVL-Tree-List:
+# AVL-Tree-List:
 
 This repository contains the implementation of a List using an AVL and Rank Tree data structures in Python. 
 
@@ -10,7 +10,7 @@ By using a self-balancing tree structure – such as an AVL tree, it is possible
 
 ## Description
 
-# The AVLTreeList class has the following methods:
+## The AVLTreeList class has the following methods:
 
 1. empty: Returns True if the list is empty, otherwise returns False.
 2. retrieve(i): Returns the value of the element at index i if it exists, otherwise returns None.
@@ -29,7 +29,7 @@ This operation should run in logarithmic time complexity.
 12. search(val): Returns the first index in the list where the value val appears, or 1 - if it does not exist.
 
 
-# The AVLNode class has the following methods:
+## The AVLNode class has the following methods:
 
 getHeight – Returns the height of the node, or 1 − if the node is virtual.
 getValue – Returns the info of the node or None if the node is virtual.
